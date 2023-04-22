@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Documents/Krushabh Patel/study/SEM5/Data Mining lab/project"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../Documents/Krushabh Patel/study/SEM5/Web Technologies/Lab Manual"
+		},
+		{
+			"path": "../../../../Documents/Krushabh Patel/study/SEM5/Compiler Design Lab"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Lab Manual"
+	}
+}
