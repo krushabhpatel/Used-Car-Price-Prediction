@@ -27,7 +27,7 @@ def BIKE():
 def car():
  if request.method == 'POST':
     
-    Full_Car_Data = pd.read_csv('App/Data/CARS/CAR_10000.csv',encoding="ISO-8859-1")
+    Full_Car_Data = pd.read_csv('Data/CARS/CAR_10000.csv',encoding="ISO-8859-1")
 
     #Data Cleaning And Modification
 
@@ -118,7 +118,7 @@ def car():
 @app.route('/BIKE_Result', methods=['GET','POST'])
 def bike():
  if request.method == 'POST':
-    bike_data=pd.read_csv('App/Data/BIKE/BIKE_1000.csv',encoding="ISO-8859-1")
+    bike_data=pd.read_csv('Data/BIKE/BIKE_1000.csv',encoding="ISO-8859-1")
 
     bike_data.loc[bike_data['owner'] == '1st owner', 'new_owner'] = 0                      # 0 for 1st owner
     bike_data.loc[bike_data['owner'] == '2nd owner', 'new_owner'] = 1                      # 1 for 2st owner
